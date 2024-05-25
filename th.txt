@@ -1,0 +1,57 @@
+Programming language --> programming language is a set of instruction given to perform a specific task.
+void main(){
+
+
+}
+
+
+Js --> Scripting language --> scripting language is a subset of programming language.
+single code -- first line -- execute
+
+
+server side -- computer compile --> c , c++ , java 
+javaScript always run in client side --> browser --> js , html , css, python
+
+Static type :-
+    when you defined variable you need to define data type 
+    - c , c++ , java 
+    - int a = 10
+
+Dynamic type :- 
+    when you defined variable you can't need to define data tye 
+    -js , python
+    a= 10
+
+
+JavaScript have no Data type. 
+
+Js History :
+Java Script was devloped by brenden eich in 1995. for netscap navigator browser.
+javaScript engine :
+- spidermonkey -> firefox
+- chakra -> internet exporer
+- v8 -> google chrome [node]
+- javaScript core : safari 
+- rhino : java 
+
+There are three keyword in js.
+1. var [global scope]
+2. let [block scope]
+3. const [block scope & can't change the value --> constant]
+
+
+There are three ways to define Js.
+1. external js [.js] -- <script src ="">
+2. internal js  -- <script> </script>
+3. inline js -- same line
+
+
+Why use JavaScript.
+-To manupulate the Dom.
+
+-To add dynamic content to the web page.
+
+-Dom --> Document object model --> html 
+
+
+
