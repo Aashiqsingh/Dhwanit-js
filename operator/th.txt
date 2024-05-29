@@ -1,0 +1,24 @@
+operator:
+
+unary operator :
+    it will required one operands
+    -- a++ , a--
+
+binary operator :
+    it will required two operands 
+    - a+b , a-b ,
+
+ternary operator :
+    it will required 3 operands 
+
+
+Binary operator :
+1. Airthmatic operator : + , - , * , / , % , **
+2. assignment operator : += , -= , *= , /= , %= , **=
+3. logical operator : && , || , ! 
+4. Binary operator : & , | , ^
+5. relational operator : < , > , <= , >= , == , === , != , !==  , it also knows as comparision operatorr
+
+
+sum = sum + i 
+sum += i
