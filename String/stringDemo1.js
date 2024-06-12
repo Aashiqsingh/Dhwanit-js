@@ -27,5 +27,19 @@ var str2 = "Ahmedabad and gandhinagar"
 // var x = str.includes("c")
 // console.log(x);
 
-var x = str.indexOf("a")
-console.log(x);
+// var x = str.indexOf("a")
+// console.log(x);
+
+
+// user = aashiqsingh
+
+// @aashiqsingh11
+
+user = "dhwanitgarg"
+
+
+// var x = '@'.concat(user)
+// var y = x.concat(user.length)
+// console.log(y);
+
+console.log('@'+user+user.length);
