@@ -1,0 +1,16 @@
+Function : re-use of code 
+
+There are four types
+1. without return type without arguments
+2. with return type without arguments
+3. with return type with arguments
+4. without return type with arguments
+
+in c ?
+int , void red(){
+
+}
+
+in javascript : 
+function is a keyword in javascript
+
