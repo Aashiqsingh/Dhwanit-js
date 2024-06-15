@@ -14,3 +14,9 @@ int , void red(){
 in javascript : 
 function is a keyword in javascript
 
+homework :
+1. Area if circle using function
+2. Area if triangle using function
+3. Area of sqauge using function
+4. Area of rectangle using function
+5. prime nmber using function
