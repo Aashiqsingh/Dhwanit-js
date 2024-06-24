@@ -1,0 +1,6 @@
+JavaScript is single threaded
+solution ---
+ callback
+
+
+Java is multi-threaded 

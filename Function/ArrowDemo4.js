@@ -12,13 +12,14 @@ const BCA = (data)=>{
 
 const BBA = (data)=>{
 
-    return ({
-        name:data.name,
-        age:data.age,
-        address:data.address,
-        email:data.email,
-        course:"BBA"
-    })
+    // return ({
+    //     name:data.name,
+    //     age:data.age,
+    //     address:data.address,
+    //     email:data.email,
+    //     course:"BBA"
+    // })
+    return data
 }
 
 const BCom = (data)=>{
@@ -49,9 +50,14 @@ if(call === "BCA"){
 }
 else if(call === "BBA"){
     var x = BBA(data)
-    console.log(x);
+    console.log(x.name);
 }
 else if(call === "BCom"){
     var x = BCom(data)
     console.log(x);
 }
+
+
+console.log("Log function called ",data);
+console.info("info function called",data)
+
