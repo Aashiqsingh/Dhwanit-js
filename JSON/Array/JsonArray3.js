@@ -65,6 +65,15 @@ var company = [
    }
 ]
 
+var x = company.find((comp)=> comp.name ==="balaji").employees.reduce((sum,emp)=> sum += emp.salary,0)
+console.log(x);
+
+// var x = company.find((company) => company.name ==="maruti").employees.filter((emp)=> emp.child > 0)
+// console.log(x);
+
+// var x = company.find((comp)=> comp.name === "balaji").employees.filter((emp)=> emp.gender === "male")
+// console.log(x);
+
 // console.log("company ---",company);
 
 
@@ -77,10 +86,16 @@ var company = [
 // console.log(x);
 
 
-company.forEach((comp)=>{
-    // console.log(comp.employees);
-    comp = comp.employees.filter((emp)=> emp.gender === "female")
-    console.log(comp);
-})
+// company.forEach((comp)=>{
+//     // console.log(comp.employees);
+//     comp = comp.employees.filter((emp)=> emp.gender === "female")
+//     console.log(comp);
+// })
 
+
+
+// let x = 4;
+// const y = 2;
+// result = x +y;
+// console.log(result);
 

@@ -39,6 +39,8 @@ console.log(products);
 // })
 // console.log(sum);
 
+
+// reduce : it will return only one value 
 // var totalPrice = products.reduce((sum,prod)=>{
 
 //     return sum + prod.price;
