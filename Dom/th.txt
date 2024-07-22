@@ -1,0 +1,12 @@
+Dom --> Documnet object model --> html page 
+
+
+js -- > to manipulate the dom.
+
+
+identifier :
+id  --> uniqui
+class --> duplicate , multiple
+name --> duplicate 
+tagname --> duplicate
+querryselector 
