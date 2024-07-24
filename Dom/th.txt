@@ -10,3 +10,8 @@ class --> duplicate , multiple
 name --> duplicate 
 tagname --> duplicate
 querryselector 
+
+
+mouse event :
+onclick 
+ondblclick
