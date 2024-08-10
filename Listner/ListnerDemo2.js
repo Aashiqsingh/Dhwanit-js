@@ -18,18 +18,18 @@ div[0].addEventListener("mouseleave",()=>{
 
 var circle = document.getElementsByClassName("circle")[0]
 var a = 1
-circle.addEventListener("mousemove",()=>{
-    for(let i=0;i<div.length;i++){
+circle.addEventListener("mouseenter",()=>{
+    // for(let i=0;i<div.length;i++){
         // div[i].style.backgroundColor = "green"
 
         setTimeout(()=>{
-            div[i].style.backgroundColor = "blue"
-        },3000)
+            div[0].style.backgroundColor = "blue"
+        },1000)
 
         setTimeout(() => {
-            div[i].style.backgroundColor = "red"
+            div[0].style.backgroundColor = "red"
         }, 4000);
-    }
+    // }
 
     // console.log(a++);
     
