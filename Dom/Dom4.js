@@ -1,3 +1,4 @@
+var a = 1
 const red = ()=>{
     document.body.style.backgroundColor = "red"
 
@@ -21,4 +22,8 @@ const yellow = ()=>{
     setTimeout(() => {
         red()
     }, 3000);
+
+    a = 3;
+    
 }
+
