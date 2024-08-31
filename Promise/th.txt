@@ -1,0 +1,24 @@
+Promise --> pending -- fullfill / reject 
+
+Promise - Class  -- create object
+
+
+Javascript -- non-sync 
+
+There are two types to create sync 
+1. block sync 
+2. function sync 
+
+
+Non-sync-
+**********************
+#######################
+
+#*#*#*#*#*#*#*
+
+
+
+
+sync 
+**********************
+###################
