@@ -2,7 +2,10 @@ var arr = ["ram","shyam","dhwanit","rahul", 12 ,"hetvi","bhavin","sagar","samir"
 
 // console.log(typeof arr);
 
-var user = ["kunal","manipal","samarth","balwinder"]
+// var user = ["kunal","manipal","samarth","balwinder"]
+
+// console.log(typeof arr);
+
 
 // var x = arr.concat(user)
 // console.log(x);
@@ -20,5 +23,5 @@ var user = ["kunal","manipal","samarth","balwinder"]
 // var x = arr.join('+')
 // console.log(x);
 
-var x = arr.includes("Sagar")
-console.log(x);
+// var x = arr.includes("Sagar")
+// console.log(x);

@@ -31,3 +31,4 @@ getdata().then((data)=>{
 //     console.log(err);
     
 // })
+

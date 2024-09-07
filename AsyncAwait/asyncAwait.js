@@ -25,9 +25,12 @@
 function getData(){
     var promise = new Promise((resolve,reject)=>{
         setTimeout(()=>{
+            
             resolve("Data get successfully....")
             // reject("Error getting data");
+
         },4000)
+        
     })
 
     return promise
@@ -37,7 +40,7 @@ async function get(){
     var promise = await getData();
     console.log(promise);
 
-
+    
     console.log("Ending fetching data....");
     
     
