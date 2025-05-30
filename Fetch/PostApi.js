@@ -2,8 +2,8 @@ const postData = async()=>{
 
 
     var user = {
-        name:"aashiq",
-        email:"aashiqt@gmail.com",
+        name:"dhwanit",
+        email:"dhwanit@gmail.com",
         age:23,
         isActive:true,
     }

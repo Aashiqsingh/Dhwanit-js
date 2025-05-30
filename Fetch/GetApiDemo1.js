@@ -34,7 +34,7 @@ const getData = async()=>{
         deletebtn.addEventListener("click",async()=>{
             // alert("Data deleted successfully..." + response.data[i].name);
 
-            const res1 =await fetch("https://node5.onrender.com/user/user/"+response.data[i]._id,{
+            var res1 =await fetch("https://node5.onrender.com/user/user/"+response.data[i]._id,{
                 method:"DELETE",
                 headers:{
                     "Content-Type":"application/json"
@@ -47,14 +47,16 @@ const getData = async()=>{
 
             // var response1 = await res1.json();
             // console.log(response1.data);
-            
-
             if(res1.status === 204){
                 alert("Data deleted successfully..")
+                location.reload(true);
+                // getData()
             }
             else{
                 alert("Failed to delete data...")
             }
+
+            
         })
 
 
@@ -71,6 +73,8 @@ const getData = async()=>{
 
     }
 
+    
+    
 
 
 
