@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    
+<!-- 
+    <svg width="500" height="500">
+        <circle cx="300" cy="200" r="100" fill="yellow" stroke="red" stroke-width="10"/>
+        <rect height="200" width="200" fill="blue"  />
+    </svg> -->
+
+    <canvas id="canvas" width="1000" height="500">
+
+    </canvas>
+
+    
+<script>
+    // let canvas  = document.getElementById("canvas");
+    // let ctx = canvas.getContext("2d");
+    // ctx.fillStyle = "red";
+    // ctx.arc(300,200,200,0,2*Math.pi)
+    // ctx.fill()
+    // ctx.fillRect(40,40,200,200);
+    // ctx.strokeRect(40,40,200,200);
+    // ctx.fillStyle = "blue";
+    // ctx.fillRect(100,100,200,200);
+
+    const canvas = document.getElementById("canvas");
+    const ctx = canvas.getContext("2d");
+
+    let x = 50;
+    let y = 150;
+    let radius = 30;
+    let dx = 20; // change in x per frame
+    let dy = 2;
+
+    function drawCircle() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height); // 1. Clear
+
+        ctx.beginPath();
+        ctx.arc(x, y, radius, 0, Math.PI * 2);
+        ctx.fillStyle = "red";
+        ctx.fill();
+
+        x += dx; 
+        y -= dy;
+        dy -= 0.12;
+
+        // 3. Bounce off edges
+        if (x + radius > canvas.width || x - radius < 0) {
+            dx = -dx;
+            dy = -dy;
+        }
+
+        requestAnimationFrame(drawCircle); // 4. Repeat
+    }
+
+    drawCircle();
+    
+</script>
+
+
+</body>
+</html>
